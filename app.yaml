@@ -1,0 +1,6 @@
+runtime: php73
+
+includes:
+    - config.yaml
+
+entrypoint: serve gae-front.php

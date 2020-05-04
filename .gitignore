@@ -9,6 +9,7 @@ user/*
 *.config
 *.conf
 [Rr]obots.txt
+config.yaml
 
 # Languages
 user/languages/*

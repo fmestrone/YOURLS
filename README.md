@@ -5,6 +5,14 @@
 **YOURLS** is a set of PHP scripts that will allow you to run <strong>Y</strong>our <strong>O</strong>wn <strong>URL</strong> <strong>S</strong>hortener. You'll have full control over your data, detailed stats, analytics, plugins, and more. It's free.
 
 
+Google App Engine Quick Start
+-----------
+You can create the configuration by
+- creating a config.php file in the `user` folder based on config-sample.php
+- creating a config.yaml file in the top level directory based on config-sample.yaml 
+A default config.php in the `includes` folder will read the environment variables of config.yaml
+
+
 Quick Start
 -----------
 To get started, check [yourls.org](http://yourls.org)!  
