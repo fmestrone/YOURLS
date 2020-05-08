@@ -3,4 +3,12 @@ runtime: php73
 includes:
     - config.yaml
 
+handlers:
+    - url: /css
+      static_dir: css
+    - url: /images
+      static_dir: images
+    - url: /js
+      static_dir: js
+
 entrypoint: serve gae-front.php

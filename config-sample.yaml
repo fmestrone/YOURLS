@@ -21,6 +21,8 @@ env_variables:
 
     ### MySQL hostname ###
     # If using a non standard port, specify it like 'hostname:port', eg. 'localhost:9999' or '127.0.0.1:666'
+    # For socket connections, enter unix_socket= and the socket path
+    #YOURLS_DB_HOST: "unix_socket=/cloudsql/yourls-mysql"
     YOURLS_DB_HOST: "localhost"
 
     ### MySQL tables prefix ###

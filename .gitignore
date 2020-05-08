@@ -10,6 +10,8 @@ user/*
 *.conf
 [Rr]obots.txt
 config.yaml
+vendor/
+composer.lock
 
 # Languages
 user/languages/*

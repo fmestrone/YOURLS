@@ -12,14 +12,17 @@ class ezSQL_pdo_YOURLS extends ezSQL_pdo {
 		$this->dbuser = $dbuser;
 		$this->dbpassword = $dbpassword;
 		$this->dbname = $dbname;
-		// Get custom port if any
-		if ( false !== strpos( $dbhost, ':' ) ) {
+		$this->dbhost = $dbhost;
+        $this->encoding = $encoding;
+        if ( substr($dbhost,0,5) != 'host=' && substr($dbhost,0,12) != 'unix_socket=' ) {
+            $dbhost = 'host=' . $dbhost;
+        }
+   		// Get custom port if any
+		if ( substr($dbhost,0,5) == 'host=' && false !== strpos( $dbhost, ':' ) ) {
 			list( $dbhost, $dbport ) = explode( ':', $dbhost );
 			$dbhost = sprintf( '%1$s;port=%2$d', $dbhost, $dbport );
 		}
-		$this->dbhost = $dbhost;
-		$this->encoding = $encoding;
-		$dsn = 'mysql:host=' . $dbhost . ';dbname=' . $dbname ;
+		$dsn = 'mysql:' . $dbhost . ';dbname=' . $dbname ;
 		$this->dsn = $dsn;
 		
 		// Turn on track errors 
