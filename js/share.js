@@ -9,12 +9,12 @@ $(document).ready(function(){
 function update_share() {
 	var text = encodeURIComponent( $('#tweet_body').val() );
 	var url = encodeURIComponent( $('#copylink').val() );
-	var tw = 'http://twitter.com/intent/tweet?status='+text;
-	var fb = 'http://www.facebook.com/share.php?u='+url ;
+	var tw = 'https://twitter.com/intent/tweet?text='+text;
+	var fb = 'https://www.facebook.com/share.php?u='+url ;
 	$('#share_tw').attr('href', tw);
 	$('#share_fb').attr('href', fb);
-	
-	var charcount = parseInt(140 - $('#tweet_body').val().length);
+
+	var charcount = parseInt(280 - $('#tweet_body').val().length);
 	$('#charcount')
 		.toggleClass("negative", charcount < 0)
 		.text( charcount );
@@ -36,16 +36,14 @@ function share(dest) {
 }
 
 function init_clipboard() {
-	$('#copylink').click(function(){
-		$(this).select();
-	})
-	
-	$('#copylink').zclip({
-		path: zclipurl,
-		copy: $('#copylink').val(),
-		afterCopy:function(){
-			html_pulse( '#copybox h2, #copybox h3', 'Copied!' );
-		}
-	});
-};                     
+    var clipboard = new Clipboard('#copylink', {
+        text: function (trigger) {
+            return $(trigger).val();
+        }
+    });
 
+    clipboard.on('success', function () {
+        $('#copylink').select();
+        html_pulse('#copybox h2, #copybox h3', 'Copied!');
+    });
+};

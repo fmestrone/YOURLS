@@ -4,6 +4,51 @@ YOURLS Changelog
 _This file lists the main changes through all versions of YOURLS.  
 For a much more detailed list, simply refer to [commit messages](https://github.com/YOURLS/YOURLS/commits/master)._
 
+1.7.6
+---
+- improved: due to popular demand, "Random Keywords" is now a core plugin bundled with YOURLS
+- fixed: JSONP parameters now match the documentation, duh
+- fixed: various little things here and also there
+
+1.7.5
+---
+- fixed: long referrers or client name won't trigger errors
+- fixed: some little bugs
+
+1.7.4
+---
+- fixed: type juggling vulnerability in the API
+- improved: several little things and several little updates
+- dropped: PHP <= 5.5 support
+
+1.7.3
+---
+- improved: some little things
+- added: some hooks here and there to allow more pluginness
+- fixed: some little bugs
+- updated: jquery and some javascript stuff
+
+1.7.2
+---
+- improved: stat graphs, regarding accuracy and time zones
+- improved: navigation in the admin interface
+- improved: several little things
+- fixed: several little bugs
+- updated: all third party libs
+- dropped: PHP 5.2 support
+
+1.7.1
+---
+- added: compatibility with PHP 7
+- added: allow hooks with closures (see [Advanced Hook Syntax](https://github.com/YOURLS/YOURLS/wiki/Advanced-Hook-Syntax))
+- improved: you can now search across all fields at once in the admin interface
+- improved: bookmarklets are now human readable in the PHP source, and minified on the fly
+- improved, still not perfect: support for URLs and page titles with encoded chars
+- fixed: timezone warnings
+- fixed: cookie mismatch preventing login when multiple YOURLS installs on subdomains of the same domain
+- fixed: lotsa bugs
+- improved: lotsa things
+
 1.7
 ---
 - added: support for PDO and MySQLi

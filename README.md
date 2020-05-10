@@ -1,9 +1,13 @@
-![yourls](images/yourls-logo.png)
-[YOURLS](http://yourls.org) — [![Build Status](https://travis-ci.org/YOURLS/YOURLS.png?branch=master)](https://travis-ci.org/YOURLS/YOURLS)
-========
+<h1 align="center">
+  <a href="https://yourls.org">
+    <img src="images/yourls-logo.svg" width=66% alt="YOURLS">
+  </a>
+</h1>
 
-**YOURLS** is a set of PHP scripts that will allow you to run <strong>Y</strong>our <strong>O</strong>wn <strong>URL</strong> <strong>S</strong>hortener. You'll have full control over your data, detailed stats, analytics, plugins, and more. It's free.
+> Your Own URL Shortener
 
+[![Build Status](https://api.travis-ci.org/YOURLS/YOURLS.svg?branch=master)](https://travis-ci.org/YOURLS/YOURLS) [![Packagist](https://img.shields.io/packagist/v/yourls/yourls.svg)](https://packagist.org/packages/yourls/yourls) [![OpenCollective](https://opencollective.com/yourls/backers/badge.svg)](https://opencollective.com/yourls#contributors) 
+[![OpenCollective](https://opencollective.com/yourls/sponsors/badge.svg)](#sponsors)
 
 Google App Engine Quick Start
 -----------------------------
@@ -23,40 +27,90 @@ Quick Start
 To get started, check [yourls.org](http://yourls.org)!  
 Learn more tweaks in the [Wiki documentation](https://github.com/YOURLS/YOURLS/wiki/).
 
+**YOURLS** is a set of PHP scripts that will allow you to run <strong>Y</strong>our <strong>O</strong>wn <strong>URL</strong> <strong>S</strong>hortener. You'll have full control over your data, detailed stats, analytics, plugins, and more. It's free and open-source.
 
-Community news, tips and tricks
--------------------------------
+## Community news, tips and tricks
+
 * Read and subscribe to the [The Official YOURLS Blog](http://blog.yourls.org)
-* Follow [@yourls](http://twitter.com/yourls)
-* Subscribe to the [YOURLS User Newsletter](http://yourls.org/newsletter) (infrequent, low volume)
+* Subscribe to the [YOURLS User Newsletter](https://yourls.org/newsletter) (infrequent, low volume)
 
 
-Keep track of development
--------------------------
-* Follow [@yourls_dev](http://twitter.com/yourls_dev)
+## Keep track of development
+
 * Check [commit messages](https://github.com/YOURLS/YOURLS/commits/master)
-* Check the [Road map](https://github.com/YOURLS/YOURLS/wiki/Road-Map)
+* Check the [Road map](https://github.com/orgs/YOURLS/projects/1)
 
 
-Bug Tracker
------------
+## Contributing
+
 __Before opening any issue, please search for existing issues and read the [Issue Guidelines](https://github.com/YOURLS/YOURLS/wiki/Bug-Report).__
 
-Have a **new bug** to report? [Please open a new issue](https://github.com/YOURLS/YOURLS/issues/new?title=Issue+title+--+be+DESCRIPTIVE&body=Before%20any%20bug%20report%2C%20check%20you%20are%20using%20the%20LATEST%20release%20or%20the%20development%20branch.%20Make%20sure%20you%20have%20SEARCHED%20closed%20issues%20first.%20Read%20the%20GUIDELINES%20linked%20in%20the%20yellow%20notice%20box%20above.%20Now%20please%20DELETE%20these%20first%20lines.%0A%0A%0A%23%23%23%20Reproducible%20Bug%20Summary%20%0A%0A1.%20This%20is%20the%20first%20step%0A2.%20second%20step%0A3.%20etc...%0A%0AThis%20is%20a%20bug%20because...%0A%0A%0A%23%23%23%20Technical%20details%0A%0A*%20YOURLS%20version%3A%0A*%20PHP%20version%3A%0A*%20Any%20other%20useful%20information%20depending%20on%20context%20%28server%20version%2C%20mysql%20version%2C%20browser%20version%2C%20OS%20version...%29%0A).
+Have a **new bug** to report? [Please open a new issue](https://github.com/YOURLS/YOURLS/issues/new?title=Issue+title+--+be+DESCRIPTIVE).
 
 
-Versioning
-----------
-For transparency, YOURLS will be maintained under the [Semantic Versioning](http://semver.org) principles as much as possible. Releases are numbered with the following format: `<major>.<minor>.<patch>` and the following guidelines:
-* Breaking backward compatibility bumps the major (and resets the minor and patch)
-* New additions without breaking backward compatibility bumps the minor (and resets the patch)
-* Bug fixes and misc changes bumps the patch
+## Backers
 
-*[Release Archive](https://github.com/YOURLS/YOURLS/releases)*
+Do you use and enjoy YOURLS? [Become a backer](https://opencollective.com/yourls#backer) and show your support to our open source project.
+
+[![](https://opencollective.com/yourls/backer/0/avatar.svg)](https://opencollective.com/yourls/backer/0/website)
+[![](https://opencollective.com/yourls/backer/1/avatar.svg)](https://opencollective.com/yourls/backer/1/website)
+[![](https://opencollective.com/yourls/backer/2/avatar.svg)](https://opencollective.com/yourls/backer/2/website)
+[![](https://opencollective.com/yourls/backer/3/avatar.svg)](https://opencollective.com/yourls/backer/3/website)
+[![](https://opencollective.com/yourls/backer/4/avatar.svg)](https://opencollective.com/yourls/backer/4/website)
+[![](https://opencollective.com/yourls/backer/5/avatar.svg)](https://opencollective.com/yourls/backer/5/website)
+[![](https://opencollective.com/yourls/backer/6/avatar.svg)](https://opencollective.com/yourls/backer/6/website)
+[![](https://opencollective.com/yourls/backer/7/avatar.svg)](https://opencollective.com/yourls/backer/7/website)
+[![](https://opencollective.com/yourls/backer/8/avatar.svg)](https://opencollective.com/yourls/backer/8/website)
+[![](https://opencollective.com/yourls/backer/9/avatar.svg)](https://opencollective.com/yourls/backer/9/website)
+[![](https://opencollective.com/yourls/backer/10/avatar.svg)](https://opencollective.com/yourls/backer/10/website)
+[![](https://opencollective.com/yourls/backer/11/avatar.svg)](https://opencollective.com/yourls/backer/11/website)
+[![](https://opencollective.com/yourls/backer/12/avatar.svg)](https://opencollective.com/yourls/backer/12/website)
+[![](https://opencollective.com/yourls/backer/13/avatar.svg)](https://opencollective.com/yourls/backer/13/website)
+[![](https://opencollective.com/yourls/backer/14/avatar.svg)](https://opencollective.com/yourls/backer/14/website)
+[![](https://opencollective.com/yourls/backer/15/avatar.svg)](https://opencollective.com/yourls/backer/15/website)
+[![](https://opencollective.com/yourls/backer/16/avatar.svg)](https://opencollective.com/yourls/backer/16/website)
+[![](https://opencollective.com/yourls/backer/17/avatar.svg)](https://opencollective.com/yourls/backer/17/website)
+[![](https://opencollective.com/yourls/backer/18/avatar.svg)](https://opencollective.com/yourls/backer/18/website)
+[![](https://opencollective.com/yourls/backer/19/avatar.svg)](https://opencollective.com/yourls/backer/19/website)
+[![](https://opencollective.com/yourls/backer/20/avatar.svg)](https://opencollective.com/yourls/backer/20/website)
+[![](https://opencollective.com/yourls/backer/21/avatar.svg)](https://opencollective.com/yourls/backer/21/website)
+[![](https://opencollective.com/yourls/backer/22/avatar.svg)](https://opencollective.com/yourls/backer/22/website)
+[![](https://opencollective.com/yourls/backer/23/avatar.svg)](https://opencollective.com/yourls/backer/23/website)
+[![](https://opencollective.com/yourls/backer/24/avatar.svg)](https://opencollective.com/yourls/backer/24/website)
+[![](https://opencollective.com/yourls/backer/25/avatar.svg)](https://opencollective.com/yourls/backer/25/website)
+[![](https://opencollective.com/yourls/backer/26/avatar.svg)](https://opencollective.com/yourls/backer/26/website)
+[![](https://opencollective.com/yourls/backer/27/avatar.svg)](https://opencollective.com/yourls/backer/27/website)
+[![](https://opencollective.com/yourls/backer/28/avatar.svg)](https://opencollective.com/yourls/backer/28/website)
+[![](https://opencollective.com/yourls/backer/29/avatar.svg)](https://opencollective.com/yourls/backer/29/website)
 
 
-License
--------
-Free software. Do whatever the hell you want with it.
-YOURLS is released under the [MIT license](LICENSE.md)
+## Sponsors
 
+Does your company use YOURLS? Ask your manager or marketing team if your company would be interested in supporting our project. Your company logo will show here. Help support our open-source development efforts by [becoming a sponsor](https://opencollective.com/yourls).
+
+[![](https://opencollective.com/yourls/sponsor/0/avatar.svg)](https://opencollective.com/yourls/sponsor/0/website)
+[![](https://opencollective.com/yourls/sponsor/1/avatar.svg)](https://opencollective.com/yourls/sponsor/1/website)
+[![](https://opencollective.com/yourls/sponsor/2/avatar.svg)](https://opencollective.com/yourls/sponsor/2/website)
+[![](https://opencollective.com/yourls/sponsor/3/avatar.svg)](https://opencollective.com/yourls/sponsor/3/website)
+[![](https://opencollective.com/yourls/sponsor/4/avatar.svg)](https://opencollective.com/yourls/sponsor/4/website)
+[![](https://opencollective.com/yourls/sponsor/5/avatar.svg)](https://opencollective.com/yourls/sponsor/5/website)
+[![](https://opencollective.com/yourls/sponsor/6/avatar.svg)](https://opencollective.com/yourls/sponsor/6/website)
+[![](https://opencollective.com/yourls/sponsor/7/avatar.svg)](https://opencollective.com/yourls/sponsor/7/website)
+[![](https://opencollective.com/yourls/sponsor/8/avatar.svg)](https://opencollective.com/yourls/sponsor/8/website)
+[![](https://opencollective.com/yourls/sponsor/9/avatar.svg)](https://opencollective.com/yourls/sponsor/9/website)
+[![](https://opencollective.com/yourls/sponsor/10/avatar.svg)](https://opencollective.com/yourls/sponsor/10/website)
+[![](https://opencollective.com/yourls/sponsor/11/avatar.svg)](https://opencollective.com/yourls/sponsor/11/website)
+[![](https://opencollective.com/yourls/sponsor/12/avatar.svg)](https://opencollective.com/yourls/sponsor/12/website)
+[![](https://opencollective.com/yourls/sponsor/13/avatar.svg)](https://opencollective.com/yourls/sponsor/13/website)
+[![](https://opencollective.com/yourls/sponsor/14/avatar.svg)](https://opencollective.com/yourls/sponsor/14/website)
+[![](https://opencollective.com/yourls/sponsor/15/avatar.svg)](https://opencollective.com/yourls/sponsor/15/website)
+[![](https://opencollective.com/yourls/sponsor/16/avatar.svg)](https://opencollective.com/yourls/sponsor/16/website)
+[![](https://opencollective.com/yourls/sponsor/17/avatar.svg)](https://opencollective.com/yourls/sponsor/17/website)
+[![](https://opencollective.com/yourls/sponsor/18/avatar.svg)](https://opencollective.com/yourls/sponsor/18/website)
+[![](https://opencollective.com/yourls/sponsor/19/avatar.svg)](https://opencollective.com/yourls/sponsor/19/website)
+
+
+## License
+
+Free software. Do whatever the hell you want with it.  
+YOURLS is released under the [MIT license](LICENSE).
