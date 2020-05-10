@@ -32,7 +32,7 @@ define( 'YOURLS_DB_PREFIX', $_ENV['YOURLS_DB_PREFIX'] );
 
 /** YOURLS installation URL -- all lowercase and with no trailing slash.
  ** If you define it to "http://sho.rt", don't use "http://www.sho.rt" in your browser (and vice-versa) */
-define( 'YOURLS_SITE', $_ENV['YOURLS_SITE'] );
+define( 'YOURLS_SITE', rtrim($_ENV['YOURLS_SITE'], '/') );
 
 /** Server timezone GMT offset */
 define( 'YOURLS_HOURS_OFFSET', $_ENV['YOURLS_HOURS_OFFSET'] ); 
