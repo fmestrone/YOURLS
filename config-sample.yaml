@@ -73,3 +73,20 @@ env_variables:
     # 62: generates mixed case keywords (ie: 13jKm or 13JKm)
     # Stick to one setting. It's best not to change after you've started creating links.
     YOURLS_URL_CONVERT: 36
+
+    #
+    # Other configuration settings
+    #
+
+    ### YOURLS Admin Users ###
+    # username:password;[username:password;...]
+    # Username(s) and password(s) allowed to access the site. Passwords either in plain text or as encrypted hashes
+    # YOURLS will auto encrypt plain text passwords in this file
+    # Read http://yourls.org/userpassword for more information
+    YOURLS_ETC_PASSWD: "username:password;username1:password"
+
+    ### YOURLS Banned Keywords ###
+    # word;[word;...]
+    # Reserved keywords (so that generated URLs won't match them)
+    # Define here negative, unwanted or potentially misleading keywords.
+    YOURLS_ETC_BANNED: "porn;faggot;sex;nigger;fuck;cunt;dick"

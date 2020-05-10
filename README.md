@@ -6,12 +6,17 @@
 
 
 Google App Engine Quick Start
------------
+-----------------------------
 You can create the configuration by
-- creating a config.php file in the `user` folder based on config-sample.php
-- creating a config.yaml file in the top level directory based on config-sample.yaml 
-A default config.php in the `includes` folder will read the environment variables of config.yaml
+- (recommended) creating a `config.yaml` file in the top level directory based on `config-sample.yaml`
+- creating a `config.php` file in the `user` folder based on `config-sample.php`
+A default `config.php` in the `includes` folder will read the environment variables of `config.yaml` - do not make changes to this file
 
+Using Cloud SQL from App Engine for YOURLS
+- just create a Cloud SQL instance, *making sure to enable a Public IP address*
+- assign Cloud SQL Client role to the default service account for App Engine
+- in the config file, use a unix socket to connect in this pattern
+  `unix_socket=/cloudsql/<instance connection name>`
 
 Quick Start
 -----------
