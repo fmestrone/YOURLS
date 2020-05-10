@@ -1,6 +1,6 @@
 <?php
 // This is needed in order to autoload composer dependency classes
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/includes/vendor/autoload.php';
 
 // This needs the require_once statement above
 use Google\Cloud\Logging\LoggingClient;
