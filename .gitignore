@@ -7,13 +7,14 @@
 *.conf
 [Rr]obots.txt
 config.yaml
-vendor/
-composer.lock
+includes/vendor/*
+!includes/vendor/build-script
 
 # Ignore everything in user/
 user/*
 # ... except config sample
 !user/config-sample.php
+!user/db.php
 # ... core plugins
 !user/plugins/hyphens-in-urls/
 !user/plugins/random-bg/

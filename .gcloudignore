@@ -15,4 +15,5 @@
 /tests/
 
 # PHP Composer dependencies:
-/includes/vendor/
+/includes/vendor/*
+!/includes/vendor/build-script/
